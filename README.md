@@ -14,11 +14,13 @@
 
 ## 安装
 
+需要 DeepSeek Harness **0.2.0 或更新**（`package.json` 的 `engines.dsh` 会拦下更旧的宿主）。
+
 本插件是一个 DSH bundle（`package.json` 里声明了 `dsh.bundle.patch` 与 `dsh.client`），安装到某个 profile：
 
 ```text
 # 在 DSH 会话里让 agent 执行，target 指向本目录的绝对路径
-plugin_manager install_bundle <path-to>/session-archaeology
+plugin_manager install_bundle <path-to>/dsh-session-archaeology
 ```
 
 安装会写入该 profile 的 `package.json` 与 `cordis.patch.yml`，无需手工编辑。安装完成后刷新 DSH Web 页面，左侧边栏出现「会话考古」图标。
@@ -26,7 +28,7 @@ plugin_manager install_bundle <path-to>/session-archaeology
 卸载：
 
 ```text
-plugin_manager remove_bundle @local/dsh-session-archaeology
+plugin_manager remove_bundle dsh-session-archaeology
 ```
 
 ## 使用

@@ -1,10 +1,17 @@
 {
-  "name": "@local/dsh-session-archaeology",
-  "version": "0.2.0",
-  "private": true,
+  "name": "dsh-session-archaeology",
+  "version": "0.3.0",
+  "description": "会话考古：手动选中一段历史会话，离线蒸馏出可复用的 Skill。",
   "license": "MIT",
-  "description": "手动选中一段历史会话，离线蒸馏出可复用的 Skill。",
   "type": "module",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "session",
+    "distill"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -20,6 +27,17 @@
     "locale/*.json",
     "icon.svg"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleGreyy/dsh-session-archaeology.git"
+  },
+  "homepage": "https://github.com/LittleGreyy/dsh-session-archaeology#readme",
+  "bugs": {
+    "url": "https://github.com/LittleGreyy/dsh-session-archaeology/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.0-0"
+  },
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
     "client": {
