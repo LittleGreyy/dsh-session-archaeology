@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Session Archaeology">
+  <defs>
+    <linearGradient id="sa-tile" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#264b5c"/>
+      <stop offset="1" stop-color="#132833"/>
+    </linearGradient>
+    <linearGradient id="sa-star" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8ecff"/>
+      <stop offset="1" stop-color="#5cc3e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#sa-tile)"/>
+  <circle cx="18" cy="14" r="22" fill="#8fdcf2" opacity="0.07"/>
+  <path d="M32 11.5 35.1 18.9 42.5 22 35.1 25.1 32 32.5 28.9 25.1 21.5 22 28.9 18.9Z" fill="url(#sa-star)"/>
+  <path d="M9.5 41.5c6.2-3.8 11.8-3.8 18 0s11.8 3.8 18 0 5.8-2.2 9-0.6" fill="none" stroke="#d8b078" stroke-width="3.2" stroke-linecap="round" opacity="0.95"/>
+  <path d="M9.5 50.5c6.2-3.8 11.8-3.8 18 0s11.8 3.8 18 0 5.8-2.2 9-0.6" fill="none" stroke="#8a6440" stroke-width="3.2" stroke-linecap="round" opacity="0.9"/>
+</svg>

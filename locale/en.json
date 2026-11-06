@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Archaeology",
+    "description": "Pick a historical session by hand and distil a reusable Skill from it offline: command sequences, key files, failure fixes, and verification steps, written into the skill library. No model calls."
+  }
+}

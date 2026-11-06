@@ -1,0 +1,3 @@
+- insert:
+    - id: session-archaeology
+      name: '@local/dsh-session-archaeology'
