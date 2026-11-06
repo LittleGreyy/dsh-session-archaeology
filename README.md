@@ -84,4 +84,4 @@ session-archaeology/
 
 ## License
 
-仓库尚未附带许可证文件。如需开源，建议补一个（如 MIT）。
+[MIT](LICENSE) © 2026 LittleGreyy

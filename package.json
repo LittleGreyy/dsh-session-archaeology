@@ -2,6 +2,7 @@
   "name": "@local/dsh-session-archaeology",
   "version": "0.2.0",
   "private": true,
+  "license": "MIT",
   "description": "手动选中一段历史会话，离线蒸馏出可复用的 Skill。",
   "type": "module",
   "exports": {
