@@ -6,7 +6,7 @@
  * saves it into the skill library. Nothing runs until the user clicks.
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-session-archaeology',
+  id: 'dsh-session-archaeology',
   factory(require) {
     const React = require('react')
     const h = React.createElement
